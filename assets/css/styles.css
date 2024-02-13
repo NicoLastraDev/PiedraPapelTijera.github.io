@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.start-text{
+  font-size: 26px;
+  text-align: center;
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+  font-size: 35px;
+  margin: 20px;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: max-content;
+  background-color: chocolate;
+  max-height: 745px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#group-btn{
+  display: flex;
+  width: fit-content;
+}
+
+#group-btn > button > img{
+  width: fit-content;
+  justify-items: auto;
+}
+
+#resultado{
+  height: 50vh;
+}
